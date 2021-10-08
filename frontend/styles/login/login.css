@@ -3,49 +3,38 @@
   padding: 0;
 }
 
-.login-pic img {
-  width: 829px;
-  height: 1060px;
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  margin-left: -20px;
+  margin-bottom: 1.5rem;
 }
 
-#judul-setup {
-  margin-left: 500px;
-  margin-top: 50px;
-}
-
-#judul-cookit {
-  font-family: 'Open Sans';
-  font-weight: bold;
+.col-lg-1 .cookikt-font {
+  font-family: Open Sans;
   font-size: 40px;
-  color: #000000;
-}
-
-#judul-login {
-  font-family: 'Catamaran';
-  font-weight: lighter;
-  font-size: 25px;
-  color: #000000;
-  margin-left: 110px;
-  margin-top: 15px;
-}
-
-.btn-signup a {
-  text-decoration: none;
-  font-family: 'Open Sans';
   font-weight: bold;
-  font-size: 20px;
-  margin-left: -40px;
-}
-
-#dont-account {
-  font-family: 'Open Sans';
-  font-size: 15px;
   color: #000000;
-  opacity: 50%;
-  margin-top: 13px;
+  opacity: 80%;
 }
 
-#signup-setup {
-  margin-left: 500px;
+.col-lg-1 .login-font {
+  font-family: Catamaran;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #000000;
+  opacity: 80%;
+  margin-top: 16px;
+  margin-left: -30px;
+}
+
+.col-lg-2 .no-account {
+  margin-top: 250px;
+  margin-left: -300px;
+}
+
+.margin-setup {
+  margin-top: 150px;
+  margin-left: 100px;
 }
 /*# sourceMappingURL=login.css.map */
