@@ -1,47 +1,152 @@
-*body{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    
 }
 
-.img-fluid{
-    width: 100%;
+.wrap-container{
+    overflow: hidden;
+}
+
+.img-padding{
+    padding: 0px;
     height: 100%;
-    margin-left: -20px;
-    margin-bottom: 1.5rem;
 }
 
+.form-control{
+    border-radius: 30px;
+}
+.form-setup{
+    padding: 0px 4px 0px 4px;
+}
 
-.col-lg-1 {
-    .cookikt-font{
-    font-family: Open Sans;
-    font-size: 40px;
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #0095F6;
+    color: white;
+    border-radius: 30px;
     font-weight: bold;
-    color: #000000;
-    opacity: 80%;
-   
-    }
 }
 
-.col-lg-1 {
-    .login-font{
-    font-family: Catamaran;
-    font-size: 25px;
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
+
+.login-setup{
+    margin-bottom: 20px;
+}
+
+.signup-setup{
+    margin-bottom: 50px;
+}
+
+.opensans-font{
+    font-family: 'Open Sans';
+    color: #000000;
+}
+
+.catamaran-font{
+    font-family: 'Catamaran';
+    color: #000000;
+}
+
+
+#cookit-font{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#login-font{
     font-weight: lighter;
-    color: #000000;
-    opacity: 80%;
-    margin-top: 16px;
-    margin-left: -30px;
-    }
+    font-size: 30px;
+    margin-left: 50px;
 }
 
-.col-lg-2{
-    .no-account{
-        margin-top: 250px;
-        margin-left: -300px;
-    }
+#no-account{
+    font-size: 20px;
+    opacity: 50%;
 }
 
-.margin-setup{
-    margin-top: 150px;
-    margin-left: 100px;
+#signup-font{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0047FF;
+    text-decoration: none;
+    opacity: 70%;
+    margin-left: 30px;
 }
+
+#signup-font:hover{
+    opacity: 100%;
+}
+
+.header-setup{
+    margin-top: 6rem;
+}
+
+#forgotpw-setup a{
+    text-decoration: none;
+    color: #FF4545;
+    font-size: 18px;
+}
+
+#forgotpw-setup{
+    margin-left: auto;
+}
+
+.middle-line {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    opacity: 50%;
+    color: #010101;
+  }
+  
+  .middle-line:before, .middle-line:after {
+    background-color: #010101;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .middle-line:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .middle-line:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .textnone{
+      text-decoration:none;
+  }
+
+  #gg-setup, #fb-setup{
+      margin-left: 20px;
+      font-weight: bold;
+      font-size: 20px;
+  }
+
+  #fb-setup{
+      color: #1976D2;
+  }
+
+  #gg-setup{
+      color: #D21919;
+  }
+
+  .copyright{
+      font-weight: bold;
+      font-size: 20px;
+  }
