@@ -10,7 +10,8 @@
 
 .img-padding{
     padding: 0px;
-    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
@@ -152,8 +153,3 @@
       font-size: 20px;
   }
 
-@media (min-width: 720px){
-    .opensans-font{
-        font-size: 1px;
-    }
-}
