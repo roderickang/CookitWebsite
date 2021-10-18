@@ -14,4 +14,32 @@
   background-size: cover;
   background-position: center center;
 }
+
+.opensans-font {
+  font-family: 'Open Sans';
+}
+
+.catamaran-font {
+  font-family: 'Catamaran';
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.display-4 {
+  font-size: 30px;
+}
+
+.marginsetup {
+  margin-top: 6rem;
+}
+
+.logintest {
+  font-size: 20px;
+}
 /*# sourceMappingURL=login.css.map */
